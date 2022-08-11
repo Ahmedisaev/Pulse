@@ -1,0 +1,340 @@
+@media (max-width: 1200px) {
+	.promo {
+
+		.promo__header {
+			font-size: 39px;
+		}
+		.promo__subheader {
+			font-size: 21px;
+		}
+
+		.button_main {
+			width: 247px;
+			font-size: 14px;
+		}
+	}
+
+	.consultation {
+		.title_left {
+			font-size: 31px;
+		}
+		.consultation__descr {
+			font-size: 18px;
+		}
+
+		.button_submit {
+			font-size: 14px;
+			height: 50px;
+		}
+	}
+
+}
+
+@media (max-width: 991px) {
+
+
+	.promo {
+		padding: 21px 10px 93px 10px;
+
+		.promo__icons {
+			justify-content: space-between;
+			width: 405px;
+		}
+		.promo__header {
+			font-size: 35px;
+		}
+		.promo__subheader {
+			font-size: 19px;
+		}
+	}
+
+	.benefits {
+		padding: 70px 15px 65px 15px;
+	}
+
+	.benefits__icons {
+		justify-content: space-around;
+		flex-wrap: wrap;
+		width: 700px;
+		.benefits__icon_last {
+			margin-top: 10px;
+		}
+	}
+	
+
+	.consultation {
+		min-height: 620px;
+		padding: 90px 13px 70px 13px;
+
+	}
+
+	.carousel {
+		/* position: relative; */
+		.prev, .next {
+			display: none;
+		}
+		.carousel__inner {
+			position: relative;
+			width: 350px;
+			margin: 0 auto;
+	
+		}
+		.tns-item {
+			img {
+				width: 80%;
+				margin-bottom: 5px;
+			}
+		}
+		.tns-nav {
+			/* position: absolute; */
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			/* left: 50%; */
+			/* transform: translateX(-50%); */
+			/* top: 516px; */
+			margin-top: 35px;
+			button{
+				width: 15px;
+				height: 13px;
+				background: #D0D0D0;
+				border-radius: 100%;
+				border: none;
+				margin: 0 19px;
+			}
+			.tns-nav-active {
+				background-color: #C70101;
+			}
+		}
+	}
+
+	.catalog {
+		&__title {
+			font-size: 28px;
+		}
+		&__tab {
+			margin: 0 8px;
+			div {
+				font-size: 16px;
+				line-height: 48px;
+			}
+			width: 212px;
+			height: 48px;
+		}
+		.catalog__content {
+			justify-content: center;
+		}
+		.catalog-items {
+			margin: 0 17px 32px 17px;
+			width: 333px;
+		}
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	.header {
+
+		&__logo {
+			width: 250px;
+			img {
+				width: 75%;
+			}
+		}
+
+		&__official {
+			display: none;
+		}
+
+		&__phone {
+			font-size: 12px;
+		}
+		.button {
+			width: 120px;
+			height: 23px;
+			font-size: 9px;
+		}
+
+	}
+
+	.promo {
+		min-height: 550px;
+		padding: 21px 10px 28px 10px;
+		.wrapper{
+
+			margin-top: 91px;
+		}
+		.promo__header {
+			margin-bottom: 3px;
+			font-size: 28px;
+		}
+		.promo__subheader {
+			margin-top: 9px;
+			font-size: 15px;
+		}
+
+		.promo__icons {
+			/* display: none; */
+			width: 85%;
+			height: 118px;
+			margin-right: -6px;
+			margin-top: 65px;
+			.promo__icon {
+				width: 93px;
+				font-size: 12px;
+				height: 90px;
+				align-items: center;
+				margin-bottom: 25px;
+			}
+		}
+
+		.button_main {
+			width: 210px;
+			height: 39px;
+			font-size: 12px;
+			margin-top: 67px;
+		}
+
+		.promo__link {
+			font-size: 13px;
+			margin-top: 8px;
+		}
+	}
+
+		.benefits__header {
+			font-size: 27px;
+		}
+
+		.benefits__icons {
+			align-content: space-around;
+			flex-direction: column;
+			width: 100%;
+			margin-top: 50px;
+			.benefits__icon {
+				width: 328px;
+			}
+
+
+		}
+
+		.benefints__icon__mod {
+			margin-top: 41px;
+		}
+	.consultation {
+		min-height: 607px;
+		padding: 69px 5px 35px 5px;
+		.title_left {
+			font-size: 23px;
+			margin-bottom: 15px;
+		}
+		.consultation__descr {
+			font-size: 14px;
+		}
+		form {
+			width: 292px;
+		}
+	}
+
+	.carousel {
+		padding: 81px 5px;
+		.tns-item {
+			img {
+				width: 95%;
+			}
+		}
+		.tns-nav {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			/* top: 317px; */
+			button{
+				width: 8px;
+				height: 11px;
+				border: none;
+				margin: 0 16px;
+			}
+		}
+	}
+
+}
+
+@media (max-width: 575px) {
+	.button {
+		margin-top: 3px;
+	}
+	.promo {
+		.promo__header {
+			font-size: 24px;
+		}
+		.promo__subheader {
+			font-size: 12px;
+			width: 70%;
+		}
+		.button_main {
+			width: 195px;
+			height: 34px;
+		}
+		.promo__link {
+			font-size: 12px;
+		}
+	}
+
+
+	.benefits {
+		padding: 60px 15px 60px 15px;
+	}
+	.benefits__header {
+		font-size: 22px;
+	}
+	.benefits__icons {
+		width: 100%;
+		.benefits__icon {
+			width: 100%;
+		}
+	}
+
+	.consultation {
+		.title_left {
+			text-align: center;
+			font-size: 19px;
+		}
+		.consultation__descr {
+			text-align: center;
+			font-size: 13px;
+			margin-top: 23px;
+		}
+
+		form {
+			width: 100%;
+		}
+
+		.button {
+			margin-top: 35px;
+		}
+
+	}
+
+	.carousel {
+		.tns-item {
+			img {
+				width: 95%;
+			}
+		}
+		.tns-nav {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			height: 7px;
+			align-items: center;
+			/* top: 280px; */
+			button{
+				width: 2px;
+				height: 11px;
+				border: none;
+				margin: 0 10px;
+			}
+		}
+	}
+	
+}

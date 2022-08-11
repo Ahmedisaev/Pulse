@@ -1,0 +1,42 @@
+.benefits {
+	padding: 70px 0 65px 0;
+	background: #F6F6F6;
+	&__header {
+		font-weight: 700;
+		font-size: 30px;
+		text-align: center;
+		color: $second-color;
+	}
+	&__icons {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 60px;
+		width: 933px;
+	}
+	&__icon {
+		width: 270px;
+		font-weight: 300;
+		font-size: 14px;
+		text-align: center;
+		color: $second-color;
+		img {
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 35px;
+		}
+	}
+	h3 {
+		font-weight: 700;
+		font-size: 18px;
+		text-align: center;
+		color: $second-color;
+
+	}
+	a {
+		color: #FF0000;
+		font-weight: 300;
+		font-size: 14px;
+		text-align: center;
+		text-decoration-line: underline;
+	}
+}
