@@ -34,6 +34,7 @@
 
 
 	.promo {
+		background: url(../../img/promo/bg_for_1000.jpg) center (center/cover) no-repeat;
 		padding: 21px 10px 93px 10px;
 
 		.promo__icons {
@@ -295,6 +296,8 @@
 	}
 
 	.consultation {
+		padding-left: 7px;
+		padding-right: 7px;
 		.title_left {
 			text-align: center;
 			font-size: 19px;
@@ -334,6 +337,25 @@
 				border: none;
 				margin: 0 10px;
 			}
+		}
+	}
+
+	.catalog {
+		.catalog__title {
+			font-size: 27px;
+		}
+		.catalog__tabs {
+			flex-direction: column;
+			margin-top: 40px;
+		}
+		.catalog__tab {
+			width: 245px;
+			height: 51px;
+			margin: 13px 9px;
+			div {
+				font-size: 15px;
+			}
+
 		}
 	}
 	
