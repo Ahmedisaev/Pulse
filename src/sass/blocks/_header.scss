@@ -26,8 +26,9 @@
         color: #FFFFFF;
         text-decoration: none;
         &:hover {
-            color: cyan;
-            text-decoration: none;
+            color: rgb(94, 32, 219);
+            text-decoration: underline;
+            transition: 0.9s all;
         }
     }
     &__contacts {

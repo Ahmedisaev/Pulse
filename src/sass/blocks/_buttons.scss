@@ -1,3 +1,27 @@
+/* @keyframes button {
+    0% {
+        background: linear-gradient(93.28deg, #DE0000 11.39%, #5200FF 82.28%, #00A3FF 136.27%);
+    }
+    15% {
+        background: linear-gradient(94.01deg, #DE0000 55.73%, #5200FF 102.28%, #00A3FF 136.53%);
+    }
+    30% {
+        background: linear-gradient(96.51deg, #DE0000 92.19%, #5200FF 118.23%, #00A3FF 137.39%);
+    }
+    45% {
+        background: linear-gradient(92deg, #DE0000 42.87%, #5200FF 85.51%, #00A3FF 116.88%);
+    }
+    65% {
+        background: linear-gradient(97.18deg, #DE0000 18.65%, #5200FF 66.3%, #00A3FF 101.36%);
+    }
+    85% {
+        background: linear-gradient(95.19deg, #DE0000 -14.94%, #5200FF 43.04%, #00A3FF 85.69%);
+    }
+    100% {
+        background: linear-gradient(97deg, #DE0000 -41.48%, #5200FF -29.92%, #00A3FF 12.47%);
+    }
+} */
+
 .button {
     width: 153px;
     height: 32px;
@@ -9,21 +33,113 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    &_header {
+        position: relative;
+        margin-top: 3px;
+        transition: 0.4s all;
+        margin-right: 1px;
+        overflow: hidden;
+        &::before {
+            content: 'Заказать звонок';
+            position: absolute;
+            width: 153px;
+            height: 32px;
+            background: linear-gradient(93.86deg, #DE0000 -15.38%, #5200FF 58.89%, #00A3FF 115.45%);
+            top: 0;
+            left: -100%;
+            border-radius: 5px;
+            border: none;
+            font-weight: 500;
+            font-size: 12px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            line-height: 32px;
+            transition: 0.7s all;
+        }
+        &:hover {
+            background-color: #00a2ff00;
+            color: #00a2ff00;
+        }
+        &:hover::before {
+            /* 
+            background: linear-gradient(93.86deg, #DE0000 -15.38%, #5200FF 58.89%, #00A3FF 115.45%);
+            animation: button 3s ease-in-out infinite alternate; */
+            left: 0;
+        }
+    }
     &_main {
+        position: relative;
         margin-top: 67px;
         width: 303px;
         height: 54px;
         font-size: 16px;
+        overflow: hidden;
+        transition: 0.4s all;
+        &:hover {
+            background-color: #00a2ff00;
+            color: #00a2ff00;
+        }
+        &::before {
+            content: 'Заказать консультацию';
+            position: absolute;
+            width: 303px;
+            height: 54px;
+            background: linear-gradient(93.86deg, #DE0000 -15.38%, #5200FF 58.89%, #00A3FF 115.45%);
+            top: -100%;
+            left: 0;
+            border-radius: 5px;
+            border: none;
+            font-size: 16px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            line-height: 54px;
+            transition: 0.7s all;
+        }
+        &:hover::before {
+            top: 0;
+        }
     }
     &_submit {
+        position: relative;
         width: 100%;
         height: 55px;
         font-size: 16px;
+        overflow: hidden;
+        transition: 0.4s all;
+        &:hover {
+            background-color: #00a2ff00;
+            color: #00a2ff00;
+        }
+        &::before {
+            content: 'Заказать консультацию';
+            position: absolute;
+            width: 303px;
+            height: 55px;
+            background: linear-gradient(93.86deg, #DE0000 -15.38%, #5200FF 58.89%, #00A3FF 115.45%);
+            top: 100%;
+            left: 0;
+            border-radius: 5px;
+            border: none;
+            font-size: 16px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            line-height: 54px;
+            transition: 0.7s all;
+        }
+        &:hover::before {
+            top: 0;
+        }
     }
     &_mini {
         width: 135px;
         height: 44px;
         font-weight: 500;
         font-size: 14px;
+        &:hover {
+            background: linear-gradient(93.86deg, #DE0000 -15.38%, #5200FF 58.89%, #00A3FF 115.45%);
+        }
     }
 }
